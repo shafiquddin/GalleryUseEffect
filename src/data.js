@@ -16,6 +16,8 @@ import africanSavannaImg from './assets/african-savanna.jpg';
 import victoriaFallsImg from './assets/victoria-falls.jpg';
 import machuPicchuImg from './assets/machu-picchu.jpg';
 import amazonRiverImg from './assets/amazon-river.jpg';
+import auranbadMaqbara from './assets/aurangbad-maqbara.jpg';
+import nandedGurdwara from './assets/nanded-gurudwara.jpg'
 
 export const AVAILABLE_PLACES = [
   {
@@ -197,5 +199,25 @@ export const AVAILABLE_PLACES = [
     },
     lat: -3.4653,
     lon: -58.38,
+  },
+  {
+    id: 'p19',
+    title: 'Aurangabad Maqbara',
+    image: {
+      src: auranbadMaqbara,
+      alt: 'The Bibi Ka Maqbara is a tomb located in the city of Aurangabad in the Indian state of Maharashtra India',
+    },
+    lat: 19.9015,
+    lon: 75.3203,
+  },
+  {
+    id: 'p20',
+    title: 'Nanded Gurudwara',
+    image: {
+      src: nandedGurdwara,
+      alt: 'The Gurudwara was built by Maharaja Ranjit Singhji, The great Ruler of Punjab between 1830 to 1839 A.D',
+    },
+    lat: 19.0910,
+    lon:  77.198,
   },
 ];
