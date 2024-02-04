@@ -15,7 +15,7 @@ const storedPlaces = storedIds.map((id) =>
 function App() {
   const selectedPlace = useRef();
   const [modalOpen, setModalOpen] = useState(false);
-  const [availablePlaces, setAvailabePlaces] = useState([]);
+  const [availablePlaces, setAvailablePlaces] = useState([]);
   const [pickedPlaces, setPickedPlaces] = useState(storedPlaces);
 
   useEffect(() => {
@@ -25,7 +25,7 @@ function App() {
         position.coords.latitude,
         position.coords.longitude
       );
-      setAvailabePlaces(sortedPlaces);
+      setAvailablePlaces(sortedPlaces);
     });
   }, []);
 
